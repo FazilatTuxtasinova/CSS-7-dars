@@ -1,0 +1,5 @@
+.sub{
+    background: radial-gradient(green,white,blue);
+    width: 1000px;
+    height: 900px;
+}

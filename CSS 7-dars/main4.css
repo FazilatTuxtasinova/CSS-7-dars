@@ -1,0 +1,14 @@
+.sub-menu{
+    background: linear-gradient(180deg,darkred,dodgerblue,limegreen);
+    text-align: center;
+    width: 2000px;
+    height: 300px;
+    font-size: 30px;
+}
+.sub-menu2{
+    background: linear-gradient(90deg,orange,yellow,green,blue,purple);
+    text-align: center;
+    width: 2000px;
+    height: 300px;
+    font-size: 30px;
+}

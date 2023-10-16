@@ -1,0 +1,204 @@
+.wrap{
+    width: 1200px;
+    margin: 20px auto;
+}
+/*h1{
+    text-shadow: -2px -10px 0 red, 2px 10px 10px blue;
+}*/
+.row{
+    width: 100%;
+    display: block;
+}
+.col{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 1s ease-in-out;
+}
+.col:hover{
+    transform: rotateZ(360deg) scale(2,1.5);
+}
+.col2{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 2s ease-in-out;
+}
+.col2:hover{
+    transform: rotateX(45deg) rotateY(45deg) skewY(360deg);
+}
+.col3{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 1s ease-in-out;
+}
+.col3:hover{
+    transform: scale(1.5) rotateY(360deg);
+}
+.col4{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 1s ease-in-out;
+}
+.col4:hover{
+    transform: skewX(180deg) rotate(140deg);
+}
+.col5{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.col5:hover{
+    transform: rotate(140deg) scale(0.5);
+}
+.col6{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.col6:hover{
+    transform: scale(0.5) rotateY(360deg);
+}
+.col7{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.col7:hover{
+    transform: rotateX(45deg) rotateY(45deg) scale(0.5);
+}
+.col8{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 2s ease-in-out;
+}
+.col8:hover{
+    transform: skewY(-45deg) rotateY(360deg) translate(180px,180px) rotateX(180deg);
+}
+.col9{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 1s ease-in-out;
+}
+.col9:hover{
+    transform: rotateY(360deg) scale(2,1);
+}
+.col10{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 2s ease-in-out;
+}
+.col10:hover{
+    transform: rotateX(360deg)  rotateZ(360deg) scale(2,1.5);
+}
+.col11{
+    width: 30%;
+    display: block;
+    float:  left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    margin: 20px;
+    transition: all 1s ease-in-out;
+}
+.col11:hover{
+    transform: translate(180px,180px) rotateX(180deg);
+}
+/*.row .col:nth-child(2) {
+    margin: 0 3%;
+}
+.row .col:nth-child(5){
+    margin: 0 3%;
+}
+.row .col:nth-child(8){
+    margin: 0 3%;
+}
+.row .col:nth-child(11){
+    margin: 0 3%;
+}
+.row .col:nth-child(14){
+    margin: 0 3%;
+}
+.row .col:nth-child(17){
+    margin: 0 5%;
+}
+.row .col:nth-child(20){
+    margin: 0 5%;
+}
+.row .col:nth-child(23){
+    margin: 0 5%;
+}
+.row .col:nth-child(26){
+    margin: 0 5%;
+}
+.row .col:nth-child(29){
+    margin: 0 5%;
+}*/
+.row .col:first-child .sana{
+    background-color: indianred;
+}
+.row .col:nth-child(14) .sana{
+    background-color: indianred;
+}
+.sana{
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #7de29e;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.text-sana{
+    padding: 2rem 0;
+    text-align: center;
+}

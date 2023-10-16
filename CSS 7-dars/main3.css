@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+.sub-menu{
+    color: grey;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 250px;
+    background: linear-gradient(90deg,blue,green,yellow,orange,red);
+    border: 2px solid white;
+    width: 1500px;
+    height: 450px;
+}
